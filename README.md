@@ -1,18 +1,34 @@
-# Notes API (TypeScript + MongoDB)
+# 📒 notes-api-ts
 
-A REST API to manage notes with authentication using TypeScript, Express, MongoDB, and JWT.
+A TypeScript-based REST API for managing notes, built with **Express** and **MongoDB**.  
+This project demonstrates authentication, request validation, and CRUD operations for notes.
 
-## Features
+---
 
-- User registration and login
-- JWT-based authentication
+## 🚀 Features
+- User authentication (register/login)
 - CRUD operations for notes (create, read, update, delete)
-- TypeScript type safety
+- Request validation with **express-validator**
+- Secure password hashing with **bcrypt**
+- Built with **TypeScript** for type safety
 
-## Setup
+---
 
-1. Clone the repo:
+## 🛠 Tech Stack
+- **Node.js** + **Express**
+- **TypeScript**
+- **MongoDB** + **Mongoose**
+- **express-validator**
+- **bcrypt**
+- Tested with **Thunder Client**
+
+---
+
+## ⚙️ Installation
+
+Clone the repository and install dependencies:
 
 ```bash
 git clone https://github.com/CrapeBell/notes-api-ts.git
 cd notes-api-ts
+npm install
