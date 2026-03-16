@@ -1,2 +1,18 @@
-# Notes-API-ts
-Here’s a concise 350-character description for your GitH"Notes API is a TypeScript-based REST API that allows users to register, login, and manage personal notes. It features JWT authentication, secure password hashing with bcrypt, and full CRUD operations for notes. Built with Express and MongoDB, it's type-safe and ready for extension."
+# Notes API (TypeScript + MongoDB)
+
+A REST API to manage notes with authentication using TypeScript, Express, MongoDB, and JWT.
+
+## Features
+
+- User registration and login
+- JWT-based authentication
+- CRUD operations for notes (create, read, update, delete)
+- TypeScript type safety
+
+## Setup
+
+1. Clone the repo:
+
+```bash
+git clone https://github.com/CrapeBell/notes-api-ts.git
+cd notes-api-ts
